@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y tmux v4l-utils
-dnf5 --allowerasing install vim-default-editor
+dnf5 install -y vim-default-editor --allowerasing
 
 # Use a COPR Example:
 #
